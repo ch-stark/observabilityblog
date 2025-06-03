@@ -15,7 +15,7 @@ RHACM Observability simplifies setup by employing "T-Shirt sizing" for configura
 * Grafana
 * Alertmanager
 * Observatorium API
-* Thanos (Query Frontend, Query, Compact, Receive, Rule, Rule Reloader, Store, Store Memcached), shipped as an Operator for better configuration
+* Thanos (Query Frontend, Query, Compact, Receive, Rule, Rule Reloader, Store, Store Memcached), soon shipped as an Operator for better configuration
 * Memcached Exporter
 * Observatorium Receive Controller
 
