@@ -14,7 +14,7 @@ Red Hat Advanced Cluster Management (RHACM) Observability provides a robust, sca
 RHACM Observability simplifies setup by employing "T-Shirt sizing" for configurations. This approach ensures optimal tuning of the following components for scalability and efficiency:
 
 * RBAC Query Proxy
-* Grafana
+* Grafana (Perses in the future)
 * Alertmanager
 * Observatorium API
 * Thanos (Query Frontend, Query, Compact, Receive, Rule, Rule Reloader, Store, Store Memcached) – soon shipped as an Operator for better configuration
