@@ -2,13 +2,9 @@
 
 Red Hat Advanced Cluster Management (RHACM) Observability delivers a technically robust, scalable, and highly available monitoring infrastructure specifically engineered for demanding enterprise environments. This solution extends comprehensive observability across your entire fleet, including **any CNCF-Certified Kubernetes Cluster**.
 
----
-
 ## Proven Scalable and Highly Available Monitoring Setup
 
 RHACM Observability is architected to manage vast metric datasets, demonstrated by its capability to support customers with **over 150 million series of metrics**. This capacity ensures consistent performance across the largest deployments, effectively overcoming the inherent retention limitations of standalone OpenShift monitoring. Its high-availability design incorporates metric data replication between stores, preventing data loss and ensuring continuous operational insights—a critical factor for business continuity in enterprise settings.
-
----
 
 ## Simplified Configuration with T-Shirt Sizing and Thanos Optimization
 
@@ -30,19 +26,13 @@ The components optimized include:
 * Memcached Exporter
 * Observatorium Receive Controller
 
----
-
 ## Comprehensive Metric Resource Utilization and Planning
 
 RHACM provides granular insights into resource consumption, offering metrics such as `TOTAL in MilliCPUs` and `TOTAL in CPUs`. This transparency is critical for effective resource planning and allocation. Furthermore, our **rightsizing dashboards** provide data-driven recommendations to optimize resource utilization, leading to demonstrable cost savings and enhanced performance.
 
----
-
 ## Designed for Enterprise Resiliency
 
 The platform is engineered for inherent resilience, leveraging data replication to ensure continuity in the face of failures and to meet stringent enterprise data retention requirements. Enterprise users gain a unified global query view across their entire cluster fleet using PromQL, significantly simplifying complex monitoring and troubleshooting tasks. This unified view spans all managed clusters, including **any CNCF-Certified Kubernetes Cluster**.
-
----
 
 ## Comprehensive and Customizable Dashboards
 
@@ -55,13 +45,9 @@ RHACM Observability includes a suite of pre-configured, **out-of-the-box dashboa
 
 Beyond these standard offerings, RHACM Observability supports the creation of custom dashboards, a crucial capability for enterprises requiring bespoke views or specific Key Performance Indicators (KPIs). For advanced customization and modern visualization, RHACM is strategically aligning with **Perses**, a Cloud Native Computing Foundation (CNCF) project, ensuring future-readiness and adherence to open standards.
 
----
-
 ## Global Alerting and Rule Evaluation
 
 A global alerting mechanism provides centralized, consistent, and efficient incident response across the entire fleet. Furthermore, configurations support secure destinations for Alertmanager, ensuring compliance with stringent enterprise security and regulatory requirements.
-
----
 
 ## Extensibility Without Lock-In
 
@@ -70,19 +56,14 @@ RHACM Observability promotes extensibility and avoids vendor lock-in through:
 * **Third-Party Export Support**: Seamless integration with external systems ensures flexibility within your existing operational ecosystem.
 * **Fine-Grained RBAC**: Customizable Role-Based Access Controls for metrics allow organizations to precisely tailor access permissions by role or need, significantly enhancing security and operational control.
 
----
-
 ## Upstream Alignment and Future-Readiness
 
 RHACM Observability maintains pace with critical upstream projects, including the Thanos Operator and Observatorium, guaranteeing access to the latest features, performance enhancements, and community innovations. It seamlessly integrates with logging, tracing, and OpenTelemetry solutions via the `MultiClusterObservabilityAddon`, providing a holistic view of your distributed infrastructure.
-
----
 
 ## Virtually Unlimited Metric Storage
 
 The solution supports extensive metric storage, offering virtually unlimited capacity for enterprises managing massive data sets and addressing long-term retention requirements without compromise.
 
----
 
 ## Case Study: Business Impact at a Large Financial Institution
 
